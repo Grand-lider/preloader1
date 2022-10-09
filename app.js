@@ -1,0 +1,16 @@
+let mask = document.querySelector('.mask');
+
+window.addEventListener('load', () => {
+  mask.classList.add('hide')
+  setTimeout(() => {
+    mask.remove();
+  }, 1400000000000000000);
+});
+
+
+
+
+
+
+
+
